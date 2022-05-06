@@ -1,0 +1,40 @@
+body {
+    background-color: rgba(15, 105, 63, 0.315);
+    font-family: 'Dela Gothic One', cursive;
+}
+
+div {
+    width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    
+    width: 200px;
+    height: 200px;
+}
+.image{
+    text-align: center;
+}
+
+.film-list {
+    color: rgba(68, 68, 68, 0.575);
+    font-size: 15px;
+}
+
+.bg-img {
+    background-image: url(https://img.freepik.com/free-vector/abstract-landscape-poster-in-navy-and-golden_1361-2206.jpg?w=2000);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid yellow ;
+    width: 1000px;
+    height: 1500px;
+}
