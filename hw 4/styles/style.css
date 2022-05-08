@@ -133,6 +133,8 @@ body {
     margin-left: 80px;
     /* display: inline-block; */
     position: relative;
+    display: flex;
+    flex-direction: row;
 }
 
 .home {
@@ -142,6 +144,7 @@ body {
     padding-top: 20px;
     display: block;
     float: left;
+    order: 1;
 }
 
 .arrowFirst {
@@ -151,6 +154,7 @@ body {
     float: left;
     margin-top: 20px;
     margin-left: 32px;
+    order: 2;
 }
 
 .arrowSecond {
@@ -160,6 +164,7 @@ body {
     float: left;
     margin-top: 20px;
     margin-left: 32px;
+    order: 4;
 }
 
 .breadcrumbFirst {
@@ -174,6 +179,7 @@ body {
     text-align: center;
     padding-top: 5px;
     font-size: 14px;
+    order: 3;
 }
 
 .breadcrumbSecond {
@@ -188,6 +194,7 @@ body {
     text-align: center;
     padding-top: 5px;
     font-size: 14px;
+    order: 5;
 }
 
 .deviderFirst {
@@ -200,25 +207,27 @@ body {
 }
 
 .breadcrumbFirst:focus {
-    color: #06c;
-
+    color: #0066CC;
 }
 
-.breadcrumbFirst:focus+.arrowFirst {
+.breadcrumbFirst:focus ~ .arrowFirst {
     background-image: url(../images/arrow-focus.png);
 }
 
 .breadcrumbSecond:focus {
-    color: #06c;
-
+    color: #0066CC;
 }
 
-.breadcrumbSecond:focus+.arrowSecond {
+.breadcrumbSecond:focus ~ .arrowSecond {
     background-image: url(../images/arrow-focus.png);
 }
 
-.breadcrumbSecond:focus+.breadcrumbFirst {
+.breadcrumbSecond:focus ~ .breadcrumbFirst{
     color: #0066CC;
+}
+
+.breadcrumbSecond:focus ~ .arrowFirst{
+    background-image: url(../images/arrow-focus.png);
 }
 
 .container {
