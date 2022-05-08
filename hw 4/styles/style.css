@@ -72,7 +72,7 @@ body {
 
 }
 
-.header a:focus {
+.header a:focus:not(.button a){
     color: #0066CC;
     border-bottom: 2px solid #006BE8;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
