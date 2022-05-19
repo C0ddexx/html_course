@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <form>
+        <div class="header">
+            <a href="#">Contact Manager</a>
+            <div class="actions">
+                <select>
+                    <option selected="true" disabled="disabled">More Actions</option>
+                    <option>Action 1</option>
+                    <option>Action 2</option>
+                    <option>Action 3</option>
+                </select>
+            </div>
+        </div>
+        <div class="main">
+            <div class="mainLeft">
+                <div class="mainItem">
+                    <label for="firstName" class="mainLabel">
+                        <span class="mainSpan">First Name</span>
+                        <input class="mainInput" id="firstName" type="text">
+                    </label>
+                </div>
+                <div class="mainItem">
+                    <label for="lastName" class="mainLabel">
+                        <span class="mainSpan">Last Name</span>
+                        <input class="mainInput" id="lastName" type="text">
+                    </label>
+                </div>
+                <div class="mainItemComment">
+                    <label for="address" class="mainLabel">
+                        <span class="mainSpan">Address</span>
+                        <textarea name="" id="address" class="mainTextarea"></textarea>
+                    </label>
+                </div>
+                <div class="mainItem">
+                    <label for="city" class="mainLabel">
+                        <span class="mainSpan">City</span>
+                        <input class="mainInput" id="city" type="text">
+                    </label>
+                </div>
+                <div class="mainItem">
+                    <label for="state" class="mainLabel">
+                        <span class="mainSpan">State</span>
+                        <select class="mainSelect">
+                            <option selected="true" disabled="disabled"></option>
+                            <option>State 1</option>
+                            <option>State 2</option>
+                            <option>State 3</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="mainItem">
+                    <label for="zip" class="mainLabel">
+                        <span class="mainSpan">Zip</span>
+                        <input class="mainInput" id="zip" type="text">
+                    </label>
+                </div>
+                <div class="mainItem">
+                    <label for="homePhone" class="mainLabel">
+                        <span class="mainSpan">Home phone</span>
+                        <input class="mainInputHomePhone" id="homePhone" type="text">
+                    </label>
+                </div>
+                <div class="mainItem">
+                    <label for="workPhone" class="mainLabel">
+                        <span class="mainSpan">Work phone</span>
+                        <input class="mainInput" id="workPhone" type="text">
+                    </label>
+                </div>
+                <div class="mainItem">
+                    <label for="faxNumber" class="mainLabel">
+                        <span class="mainSpan">Fax Number</span>
+                        <input class="mainInputFaxNumber" id="faxNumber" type="text">
+                    </label>
+                </div>
+                <div class="mainItemWebsite">
+                    <label class="mainLabel">
+                        <span class="mainSpan">Website</span>
+                        <div class="innerItemWebsite">
+                            <label for="innerItemWebsiteFisrtLabel" class="innerItemWebsiteLabel">
+                                <span class="innerItemWebsiteSpan">URL</span>
+                                <input type="text" id="innerItemWebsiteFisrtLabel" class="innerItemWebsiteInput">
+                            </label>
+                            <label for="innerItemWebsiteSecondLabel" class="innerItemWebsiteLabel">
+                                <span class="innerItemWebsiteSpan">Link Name</span>
+                                <input type="text" id="innerItemWebsiteSecondLabel" class="innerItemWebsiteInput">
+                            </label>
+                        </div>
+                    </label>
+                </div>
+                <div class="mainItem">
+                    <label for="email" class="mainLabel">
+                        <span class="mainSpan">Email Address</span>
+                        <input class="mainInput" id="email" type="text">
+                    </label>
+                </div>
+            </div>
+            <div class="mainRight">
+                <div>
+                    <label class="mainLabel">
+                        <span class="mainSpan">When is the best time to contact you?</span>
+                        <div class="contactTime">
+                            <div>
+                                <input type="radio" id="contacntTimeMorning">
+                                <label for="contacntTimeMorning">Morning</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="contacntTimeAfternoon">
+                                <label for="contacntTimeAfternoon">Afternoon</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="contacntTimeEvening">
+                                <label for="contacntTimeEvening">Evening</label>
+                            </div>
+                        </div>
+                    </label>
+                </div>
+                <div>
+                    <label class="mainLabel">
+                        <span class="mainSpan">When is the best way to contact you?</span>
+                        <div class="contactWay">
+                            <div>
+                                <input type="radio" id="contacntWayPhone">
+                                <label for="contacntWayPhone">Phone</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="contacntWayEmail">
+                                <label for="contacntWayEmail">Email</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="contacntWayFax">
+                                <label for="contacntWayFax">Fax</label>
+                            </div>
+                        </div>
+                    </label>
+                </div>
+                <div class="mainItemComment">
+                    <label for="message" class="mainLabel">
+                        <span class="mainSpan">Message</span>
+                        <textarea name="" id="message" class="mainTextarea"></textarea>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <input type="submit" class="btn btnSubmite" value="Submit">
+            <input type="reset"class="btn" value="Reset">
+        </div>
+    </form>
+</body>
+
+</html>
