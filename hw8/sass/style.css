@@ -1,0 +1,216 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+}
+
+.left-header-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 500px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.nav-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.nav-menu a {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #1B0A42;
+}
+
+.nav-menu li {
+  margin-left: 38px;
+  display: block;
+  -webkit-transition-duration: 350ms;
+          transition-duration: 350ms;
+}
+
+li:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  background-color: #4F56F1;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+li:hover a {
+  color: #fff;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.info-section {
+  width: 538px;
+  height: 372px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 190px;
+  margin-left: 120px;
+}
+
+.main-text {
+  font-family: 'Ramaraja';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 76px;
+  letter-spacing: 0.02em;
+  color: #1B0A42;
+}
+
+.inner-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  color: #9A9A9A;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.banner {
+  margin-top: 96px;
+}
+
+.wrapper {
+  width: 1450px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  width: 120px;
+  height: 60px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  border: none;
+  background-color: #4F56F1;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  -webkit-transition-duration: 1000ms;
+          transition-duration: 1000ms;
+}
+
+.btn.transparent {
+  color: #1B0A42;
+  background-color: transparent;
+}
+
+.btn:hover {
+  -webkit-transform: scale(1) rotate(1turn);
+          transform: scale(1) rotate(1turn);
+  background-color: #0410f3;
+}
+
+.btn:hover.transparent {
+  -webkit-transform: scale(1) rotate(1turn);
+          transform: scale(1) rotate(1turn);
+  background-color: #afafafa6;
+}
+/*# sourceMappingURL=style.css.map */

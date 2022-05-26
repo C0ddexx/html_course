@@ -1,0 +1,39 @@
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+.info-section{
+    width: 538px;
+    height: 372px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 190px;
+    margin-left: 120px;
+}
+
+.main-text{
+    font-family: 'Ramaraja';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 76px;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+}
+
+.inner-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #9A9A9A;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.banner{
+    margin-top: 96px;
+}

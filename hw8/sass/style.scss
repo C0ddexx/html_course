@@ -1,0 +1,46 @@
+@import 'reset';
+@import 'header';
+@import 'main';
+
+.wrapper {
+    width: 1450px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    width: 120px;
+    height: 60px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    border: none;
+    background-color: #4F56F1;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    transition-duration: 1000ms;
+    &.transparent {
+        color: #1B0A42;
+        background-color: transparent;
+    }
+}
+
+
+
+.btn:hover {
+     transform: scale(1) rotate(1turn); 
+     background-color: #0410f3; 
+     &.transparent {
+        transform: scale(1) rotate(1turn); 
+        background-color: #afafafa6;
+    }
+   }
