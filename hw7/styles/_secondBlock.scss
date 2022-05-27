@@ -1,0 +1,113 @@
+// .secondBlockMainText span{
+//     display: block;
+// }
+
+.secondBlockMainTextFirstSpan{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    color: #2D3436;
+    display: block;
+}
+
+.inner-secondBlock{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.secondBlockMainTextSecondSpan{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.25px;
+    color: #2D3436;
+    margin-top: 15px;
+    display: block;
+}
+
+.inner-secondBlockSection{
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 330px;
+}
+
+.inner-secondSections{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.inner-secondBlockSectionMainSpan{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.25px;
+    color: #2D3436;
+    margin-top: 24px;
+    }
+
+.inner-secondBlockSectionInnerSpan{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #2D3436;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    display: flex;
+}
+
+.learn-moreSecondBlock{
+    width: 146px;
+    height: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #6C5CE7;
+    border: 1px solid #ADADAD !important;
+    border-radius: 16px;
+    background-color: #fff;
+}
+
+.secondBlockMainTextFirstSpan_mobile{
+    display: none ;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.25px;
+    color: #2D3436;
+    span{
+        color: #6C5CE7;
+    }
+}
+
+.secondBlockMainTextSecondSpan_mobile{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #2D3436;
+    display: none ;
+}
+
+.mobile-icon{
+    display: none;
+}

@@ -1,0 +1,519 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url(e:\html_course\hw7\styles\media.css);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.header {
+  background: #FFFFFF;
+  -webkit-filter: drop-shadow(0px 2px 4px rgba(38, 50, 56, 0.16)) drop-shadow(0px 4px 8px rgba(38, 50, 56, 0.08));
+          filter: drop-shadow(0px 2px 4px rgba(38, 50, 56, 0.16)) drop-shadow(0px 4px 8px rgba(38, 50, 56, 0.08));
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.inner-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 16px 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-menu {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.nav-menu li:not(:last-child) {
+  margin-right: 24px;
+}
+
+.nav-menu li {
+  height: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.nav-menu li a {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #6C5CE7;
+}
+
+.nav-menu li a:hover {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  color: #2D3436;
+  text-align: center;
+}
+
+.nav-menu li:after {
+  content: '.';
+  background-color: #fff;
+  color: #FDCB6E;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  margin-left: 16px;
+  position: relative;
+  bottom: 5px;
+}
+
+.nav-menu li:last-child:after {
+  content: none;
+}
+
+.sign-in {
+  width: 170px;
+  height: 64px;
+  background-color: #6C5CE7;
+  border-radius: 999px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.25px;
+  color: #FFFFFF;
+  text-shadow: 0px 2px 4px rgba(38, 50, 56, 0.16), 0px 4px 8px rgba(38, 50, 56, 0.08);
+}
+
+.logo-mobile {
+  display: none;
+}
+
+.text-logo {
+  display: none;
+}
+
+.firstBlock {
+  position: relative;
+}
+
+.rectangle {
+  position: absolute;
+  width: 83%;
+  height: 78%;
+  left: 13%;
+  bottom: 46%;
+  background: #FFEAA7;
+  border-radius: 99px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  z-index: -10;
+}
+
+.inner-firstBlock {
+  height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.firstBlockMainText {
+  text-align: center;
+  margin-top: 175px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 96px;
+  line-height: 104px;
+  letter-spacing: -3px;
+  text-shadow: 0px 4px 0px #FFFFFF;
+}
+
+.firstBlockMainText span {
+  color: #D63031;
+}
+
+.firstBlockInnerText {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 77px;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #2D3436;
+  margin-top: 16px;
+}
+
+.learn-more {
+  background: #6C5CE7;
+  border-radius: 999px;
+  width: 270px;
+  height: 82px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.firstBlockBottomSection span {
+  display: block;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #2D3436;
+  width: 270px;
+  height: 102px;
+}
+
+.firstBlockBottomSection {
+  width: 300px;
+  height: 280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  position: relative;
+}
+
+.bottomItem {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 408px;
+  height: 191px;
+  background-color: #55EFC4;
+  border-radius: 999px;
+}
+
+.bottomItem span {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  position: absolute;
+  left: 8.58%;
+  right: 2.45%;
+  top: 57px;
+  color: #2D3436;
+}
+
+.mobile-bg {
+  display: none;
+  position: absolute;
+  z-index: -10;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.firstBlockMain_mobileUpperText {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 77px;
+  letter-spacing: -1px;
+  color: #2D3436;
+  text-shadow: 0px 4px 0px #FFFFFF;
+  display: block;
+  margin-top: 120px;
+  display: none;
+  text-align: center;
+}
+
+.firstBlockMain_mobileBottomText {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: -1px;
+  text-shadow: 0px 4px 0px #FFFFFF;
+  display: none;
+  color: #2D3436;
+}
+
+.firstBlockMain_mobileBottomText span {
+  color: #D63031;
+}
+
+.bgItem {
+  width: 119px;
+  height: 32px;
+  position: absolute;
+  width: 119px;
+  height: 32px;
+  left: calc(50% - 119px/2 - 85.5px);
+  top: 233px;
+  display: none;
+  background-color: #55EFC4;
+  border-radius: 999px;
+  z-index: -8;
+}
+
+.arrowButton {
+  width: 64px;
+  height: 64px;
+  background-color: rgba(255, 255, 255, 0.24);
+  border-radius: 999px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  z-index: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  margin-top: 8px;
+  display: none;
+  cursor: pointer;
+}
+
+.arrowButton svg {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  margin: auto;
+}
+
+.btnMobile {
+  display: none;
+}
+
+.secondBlockMainTextFirstSpan {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+  color: #2D3436;
+  display: block;
+}
+
+.inner-secondBlock {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.secondBlockMainTextSecondSpan {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.25px;
+  color: #2D3436;
+  margin-top: 15px;
+  display: block;
+}
+
+.inner-secondBlockSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 270px;
+  height: 330px;
+}
+
+.inner-secondSections {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.inner-secondBlockSectionMainSpan {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.25px;
+  color: #2D3436;
+  margin-top: 24px;
+}
+
+.inner-secondBlockSectionInnerSpan {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #2D3436;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.learn-moreSecondBlock {
+  width: 146px;
+  height: 48px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #6C5CE7;
+  border: 1px solid #ADADAD !important;
+  border-radius: 16px;
+  background-color: #fff;
+}
+
+.secondBlockMainTextFirstSpan_mobile {
+  display: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.25px;
+  color: #2D3436;
+}
+
+.secondBlockMainTextFirstSpan_mobile span {
+  color: #6C5CE7;
+}
+
+.secondBlockMainTextSecondSpan_mobile {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #2D3436;
+  display: none;
+}
+
+.mobile-icon {
+  display: none;
+}
+
+.wrapper {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  display: block;
+  cursor: pointer;
+  border: none;
+}
+
+.btnMobile {
+  cursor: pointer;
+  border: none;
+}
+/*# sourceMappingURL=style.css.map */
