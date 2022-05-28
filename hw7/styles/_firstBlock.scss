@@ -5,13 +5,14 @@
 .rectangle {
     position: absolute;
     width: 83%;
-    height: 78%;
-    left: 13%;
+    height: 100%;
+    left: 20%;
     bottom: 46%;
     background: #FFEAA7;
     border-radius: 99px;
     transform: rotate(-45deg);
     z-index: -10;
+    overflow: hidden;
 }
 
 .inner-firstBlock{

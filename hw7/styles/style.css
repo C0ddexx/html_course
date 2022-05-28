@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-@import url(e:\html_course\hw7\styles\media.css);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -169,14 +168,15 @@ table {
 .rectangle {
   position: absolute;
   width: 83%;
-  height: 78%;
-  left: 13%;
+  height: 100%;
+  left: 20%;
   bottom: 46%;
   background: #FFEAA7;
   border-radius: 99px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   z-index: -10;
+  overflow: hidden;
 }
 
 .inner-firstBlock {
@@ -497,6 +497,20 @@ table {
   display: none;
 }
 
+.inner-secondBlockSectionInnerSpan_mobile {
+  display: none;
+}
+
+.inner-secondBlockSectionMainSpan_mobile {
+  display: none;
+}
+
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .wrapper {
   width: 1170px;
   margin: 0 auto;
@@ -515,5 +529,283 @@ a {
 .btnMobile {
   cursor: pointer;
   border: none;
+}
+
+@media (max-width: 1920px) {
+  .rectangle {
+    bottom: 52%;
+  }
+}
+
+@media (max-width: 1180px) {
+  .wrapper {
+    max-width: 940px;
+  }
+  .nav-menu li {
+    margin-right: 8px;
+  }
+  .nav-menu li:after {
+    margin-left: 16px;
+  }
+  .inner-secondBlockSection {
+    width: 220px;
+    position: relative;
+  }
+  .inner-secondBlockSectionMainSpan {
+    font-size: 20px;
+  }
+  .inner-secondBlockSectionInnerSpan {
+    font-size: 14px;
+  }
+  .learn-moreSecondBlock {
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+@media (max-width: 960px) {
+  .wrapper {
+    max-width: 744px;
+  }
+  .nav-menu li:not(:last-child) {
+    margin-right: 10px;
+  }
+  .nav-menu li:after {
+    margin-left: 10px;
+  }
+  .inner-header {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .nav-menu li a {
+    font-size: 16px;
+  }
+  .logo {
+    width: 160px;
+  }
+  .sign-in {
+    font-size: 20px;
+    width: 114px;
+    height: 43px;
+  }
+  .inner-secondSections {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .inner-secondBlockSection {
+    width: 260px;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 760px) {
+  .wrapper {
+    max-width: 644px;
+  }
+  .nav-menu li:not(:last-child) {
+    margin-right: 15px;
+  }
+  .nav-menu li:after {
+    content: none;
+  }
+  .inner-header {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .nav-menu li a {
+    font-size: 14px;
+  }
+  .bottomItem {
+    width: 272px;
+    height: 128px;
+  }
+  .bottomItem span {
+    font-size: 18px;
+    top: 20px;
+  }
+  .firstBlockBottomSection span {
+    display: block;
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 660px) {
+  .wrapper {
+    max-width: 480px;
+  }
+  .inner-secondBlock {
+    width: 100%;
+  }
+  .inner-header {
+    padding: 0;
+  }
+  .nav-menu {
+    display: none;
+  }
+  .sign-in {
+    border-radius: 8px;
+  }
+  .logo {
+    display: none;
+  }
+  .logo-mobile {
+    display: block;
+  }
+  .text-logo {
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+    color: #2D3436;
+  }
+  .inner-header a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .inner-header a span {
+    margin-left: 11px;
+  }
+  .sign-in {
+    border-radius: 8px;
+    width: 128px;
+    height: 40px;
+    font-size: 18px;
+  }
+  .bottomItem {
+    display: none;
+  }
+  .firstBlockBottomSection {
+    display: none;
+  }
+  .inner-firstBlock {
+    height: 551px;
+  }
+  .rectangle {
+    display: none;
+  }
+  .mobile-bg {
+    display: block;
+  }
+  .firstBlockMainText {
+    display: none;
+  }
+  .firstBlockMain_mobileUpperText {
+    display: block;
+  }
+  .firstBlockMain_mobileBottomText {
+    display: block;
+  }
+  .firstBlockInnerText {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.25px;
+  }
+  .bgItem {
+    display: block;
+  }
+  .arrowButton {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .learn-more {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    width: 130px;
+    height: 37px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 34px;
+  }
+  .btnMobile {
+    display: block;
+  }
+  .secondBlockMainTextFirstSpan {
+    display: none;
+  }
+  .secondBlockMainTextSecondSpan {
+    display: none;
+  }
+  .inner-secondBlock {
+    padding-top: 40px;
+  }
+  .secondBlockMainTextFirstSpan_mobile {
+    display: block;
+  }
+  .secondBlockMainTextSecondSpan_mobile {
+    display: block;
+    margin-top: 8px;
+  }
+  .inner-secondBlockSection {
+    width: 35%;
+    height: 273px;
+  }
+  .inner-secondBlockSectionMainSpan_mobile {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.1875px;
+    color: #2D3436;
+    margin-top: 17.5px;
+    display: block;
+  }
+  .inner-secondBlockSectionInnerSpan_mobile {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.5px;
+    line-height: 24px;
+    color: #5C5C5C;
+    margin-top: 12px;
+    margin-bottom: 7.5px;
+    display: block;
+  }
+  .inner-secondBlockSectionMainSpan {
+    display: none;
+  }
+  .inner-secondBlockSectionInnerSpan {
+    display: none;
+  }
+  .learn-moreSecondBlock {
+    width: 109.5px;
+    height: 36px;
+    font-size: 13.5px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+  }
+  .learn-moreSecondBlock {
+    position: static;
+  }
+  .desktop-icon {
+    display: none;
+  }
+  .mobile-icon {
+    display: block;
+  }
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    max-width: 330px;
+  }
+  .inner-secondBlockSection {
+    width: 150px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

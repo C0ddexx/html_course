@@ -1,8 +1,16 @@
 @import 'reset';
-@import 'media';
+
 @import 'header';
 @import 'firstBlock';
 @import 'secondBlock';
+
+
+body
+{
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
 .wrapper{
     width: 1170px;
@@ -23,3 +31,5 @@ a{
     cursor: pointer;
     border: none;
 }
+
+@import 'media';
