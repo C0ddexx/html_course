@@ -3,6 +3,7 @@
 @import 'header';
 @import 'firstBlock';
 @import 'secondBlock';
+@import 'thirdBlock';
 
 
 body
@@ -31,5 +32,6 @@ a{
     cursor: pointer;
     border: none;
 }
+
 
 @import 'media';

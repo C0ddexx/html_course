@@ -1,0 +1,221 @@
+.inner-thirdBlock{
+    width: 100%;
+}
+
+.thirdBlockMainText{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 74px;
+    margin-bottom: 40px;
+}
+
+.thirdBlockMainTextFirstSpan{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 77px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #2D3436;
+}
+
+.thirdBlockMainTextSecondSpan{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #ADADAD;
+    margin-top: 34px;
+    span {
+        color: #6C5CE7;
+        position: relative;
+    }
+    span::after{
+        content: '';
+        width: 126px;
+        height: 12px;
+        background-color: #FDCB6E;
+        display: block;
+        position: absolute;
+        bottom: 1px;
+        left: 0;
+        z-index: -1;
+        border-radius: 99px;
+    }
+}
+
+.thirdBlockCardSections{
+    margin-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.thirdBlockCardSection{
+    width: 370px;
+    height: 536px;
+    background-color: transparent;
+    border-radius: 16px;
+    
+}
+
+.inner-thirdBlockCardSection{
+    margin-top: 32px;
+    margin-left: 32px;
+    
+}
+
+.thirdBlockCardSectionWhite{
+    background-color: #fff;
+    filter: drop-shadow(0px 8px 8px rgba(38, 50, 56, 0.12)) drop-shadow(0px 16px 24px rgba(38, 50, 56, 0.08));
+    
+    
+}
+
+.wiggle{
+    position: absolute;
+    bottom: -30px;
+    left: -30px;
+    z-index: -1;
+    
+}
+
+.thirdBlockCardSectionMainSpan{
+    margin-bottom: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+    color: #6C5CE7;
+    display: block;
+}
+
+.PriceTermBlock{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-bottom: 24px;
+}
+
+.thirdBlockCardSectionPriceSpan{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -1px;
+    color: #2D3436;
+}
+
+.thirdBlockCardSectionTermSpan{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #2D3436;
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+
+.thirdBlockCardSectionListBlock{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.thirdBlockCardSectionListItem{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin-bottom: 16px;
+}
+
+.thirdBlockCardSectionListSpan{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #2D3436;
+    margin-left: 16px;
+}
+
+.thirdBlockCardSectionButtonWhite{
+    width: 306px;
+    height: 64px;
+    border: 1px solid #ADADAD;
+    border-radius: 16px;
+    background-color: #fff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+    color: #6C5CE7;
+    margin-top: 128px;
+    cursor: pointer;
+}
+
+.thirdBlockCardSectionButtonPurple{
+    width: 306px;
+    height: 64px;
+    border-radius: 16px;
+    background-color: #6C5CE7;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 36px;
+    letter-spacing: 0.25px;
+    color: #fff;
+    margin-top: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+.thirdBlockCardSectionSpanBlockBestChoice{
+    border: 1px solid #6C5CE7;
+    border-radius: 99px;
+    width: 90px;
+    height: 32px;
+    background-color: #fff;
+    span{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+        color: #2D3436;
+        margin: 8px;
+        display: block;
+    }
+}
+
+.thirdBlockCardSectionSpanBlock{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 306px;
+}
+
+.thirdBlockCardSectionButtonWhite_second{
+    margin-top: 80px !important;
+}
+
