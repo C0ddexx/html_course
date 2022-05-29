@@ -37,6 +37,15 @@
     .thirdBlockCardSectionWhite{
         order: 3;
     }
+    .inner-footer{
+        flex-direction: column;
+    }
+    .footerSection{
+        margin-bottom: 40px;
+    }
+    .inner-footer{
+        height: 700px;
+    }
 }
 
 @media (max-width: 960px){
@@ -109,6 +118,9 @@
     }
     .thirdBlockCardSectionWhite{
         order: -1;
+    }
+    .inner-thirdBlockCardSection{
+        margin-top: 43px;
     }
 }
 @media (max-width: 660px){
@@ -275,6 +287,36 @@
     .mobile-icon{
         display: block;
     }
+    .thirdBlockMainTextFirstSpan{
+        display: none;
+    }
+
+    .thirdBlockMainTextSecondSpan{
+        display: none;
+    }
+
+    .thirdBlockMainTextFirstSpan_mobile{
+        display: block;
+    }
+    
+    .thirdBlockMainTextSecondSpan_mobile{
+        display: block;
+    }
+
+    .thirdBlockCardSections{
+        display: none;
+    }
+    .thirdBlockCardSections_mobile{
+        display: flex;
+    }
+    .footer_mobile{
+        display: block;
+    }
+    .footer{
+        display: none;
+    }
+
+    
 }
 
 @media (max-width: 480px){
@@ -284,6 +326,10 @@
 
     .inner-secondBlockSection{
         width: 150px;
+    }
+    .footer_mobileBg{
+        bottom: -60px;
+        left: -150px;
     }
 }
 

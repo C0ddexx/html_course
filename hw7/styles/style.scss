@@ -4,6 +4,7 @@
 @import 'firstBlock';
 @import 'secondBlock';
 @import 'thirdBlock';
+@import 'footer';
 
 
 body
@@ -32,6 +33,13 @@ a{
     cursor: pointer;
     border: none;
 }
+
+.footer{
+    
+    position: relative;
+    overflow: hidden;
+}
+
 
 
 @import 'media';

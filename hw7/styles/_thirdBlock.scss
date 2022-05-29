@@ -59,6 +59,14 @@
     justify-content: space-between;
 }
 
+.thirdBlockCardSections_mobile{
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    width: 100%;
+    display: none;
+}
+
 .thirdBlockCardSection{
     width: 370px;
     height: 536px;
@@ -219,3 +227,205 @@
     margin-top: 80px !important;
 }
 
+.thirdBlockMainTextFirstSpan_mobile{
+    display: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    color: #2D3436;
+}
+
+.thirdBlockMainTextSecondSpan_mobile{
+    display: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.25px;
+    color: #ADADAD;
+    margin-top: 8px;
+    margin-bottom: 40px;
+    span{
+        color: #2D3436;
+        position: relative;
+    }
+    span::after{
+        content: '';
+        width: 71px;
+        height: 12px;
+        background-color: #FDCB6E;
+        display: block;
+        position: absolute;
+        bottom: -2px;
+        left: -3px;
+        z-index: -1;
+        border-radius: 99px;
+    }
+}
+
+.thirdBlockCardSection_mobile{
+    width: 330px;
+    height: 392px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.thirdBlockCardSection_mobile:not(:last-child){
+    filter: drop-shadow(0px 2px 4px rgba(38, 50, 56, 0.16)) drop-shadow(0px 4px 8px rgba(38, 50, 56, 0.08));
+}
+
+.thirdBlockCardSection_mobile:last-child{
+    background-color: #6C5CE7;
+}
+
+.thirdBlockCardSectionMainSpan_mobile{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+    color: #2D3436;
+}
+
+.inner-thirdBlockCardSection_mobile{
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+.thirdBlockCardSectionSpanBlockAdvice{
+    width: 90px;
+    height: 32px;
+    border: 1px solid #858585;
+    span{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+        color: #2D3436;
+        margin: 9px;
+        display: block;
+        text-align: center;
+    }
+    border-radius: 99px;
+}
+.thirdBlockCardSectionBlockSpan_mobile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 282px;
+}
+
+.PriceTermBlock_mobile{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-bottom: 24px;
+}
+
+.thirdBlockCardSectionPriceSpan_mobile{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.25px;
+    color: #6C5CE7;
+    text-shadow: 0px 4px 0px #FFFFFF;
+}
+
+.thirdBlockCardSectionTermSpan_mobile{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #6C5CE7;
+    text-shadow: 0px 4px 0px #FFFFFF;
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+
+.thirdBlockCardSectionListBlock_mobile{
+    display: flex;
+    flex-direction: column;
+}
+
+.thirdBlockCardSectionListSpan_mobile{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #2D3436;
+    margin-left: 8px;
+    margin-top: 2px;
+}
+
+.thirdBlockCardSectionListItem_mobile{
+    display: flex;
+    flex-direction: row;
+}
+
+.thirdBlockCardSectionListItem_mobile:not(:last-child){
+    margin-bottom: 24px;
+}
+
+.thirdBlockCardSectionListItem_mobile:last-child{
+    margin-bottom: 32px;
+}
+
+.thirdBlockCardSectionButtonWhite_mobile{
+    width: 282px;
+    height: 48px;
+    background-color: #6C5CE7;
+    border-radius: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+
+.thirdBlockCardSectionPriceSpanPurple_mobile,.thirdBlockCardSectionTermSpanPurple_mobile{
+    color: #FFFFFF;
+    text-shadow: 0px 4px 0px #000000;
+}
+
+.thirdBlockCardSectionMainSpanPurple_mobile{
+    color: #55EFC4;
+}
+
+.thirdBlockCardSectionSpanBlockAdvicePurple{
+    span{
+        color: #55EFC4;   
+    }
+    border: 1px solid #55EFC4; 
+}
+
+.thirdBlockCardSectionListSpanPurple_mobile{
+    color: #fff;
+}
+
+.thirdBlockCardSectionButtonPurple_mobile{
+    background: #fff;
+    color: #000000;
+}
