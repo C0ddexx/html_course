@@ -1,0 +1,66 @@
+.mainFifthBlock{
+    background: #3751FF;
+}
+
+.inner-mainFifthBlock{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 88px 0 115px 0;
+}
+
+.fifthBlockSection{
+    display: flex;
+    flex-direction: column;
+    button{
+        width: 245px;
+        height: 56px;
+        font-family: 'Assistant';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 110%;
+        text-align: center;
+        color: #455880;
+    }
+}
+
+.fifthBlockSectionSpan{
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    text-align: right;
+    color: #DFE0EB;
+    display: block;
+    margin-top: 20px;
+    span{
+        color: #FED385;
+    }
+}
+
+.fifthBlockSectionButton{
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 100px;
+    align-items: center;
+    svg{
+        margin-left: 27px;
+    }
+    span{
+        display: block;
+        margin-left: 15px;
+    }
+    
+}
+
+.fifthBlockSpan{
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+}

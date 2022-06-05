@@ -1,0 +1,39 @@
+.mainThirdBlock{
+    background: #FFF9EA;
+}
+
+.inner-mainThirdBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    button{
+        margin: 0 auto;
+    }
+}
+
+.thirdBlockMainSpan{
+    margin-top: 139px;
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #1E266D;
+}
+
+.thirdBlockInnerSpan{
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 150%;
+    text-align: center;
+    color: #455880;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.bgThirdBlock{
+    width: 100%;
+}

@@ -1,0 +1,38 @@
+@import 'reset';
+@import 'header';
+@import 'mainFirstBlock';
+@import 'logoSection';
+@import 'mainSecondBlock';
+@import 'mainThirdBlock';
+@import 'mainFourthBlock';
+@import 'mainFifthBlock';
+
+
+body{
+    overflow-x: hidden;
+}
+
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    display: block;
+    background-color: #3751FF;
+    border-radius: 100px;
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+@import 'media';

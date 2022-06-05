@@ -1,0 +1,61 @@
+.inner-header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 600px;
+    height: 80px;
+    align-items: center;
+    li{
+        font-family: 'Assistant';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 80px;
+    }
+    a{
+        color: #1E266D;
+    }
+}
+
+.contactSection{
+    width: 260px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    span{
+        font-family: 'Assistant';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 80px;
+        color: #1E266D;
+    }
+}
+
+.contact{
+    width: 113px;
+    height: 40px;
+    
+}
+
+.hamburger_menu{
+    display: none;
+    margin-right: 20px;
+    order: -1;
+}
+
+.logoBlock{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

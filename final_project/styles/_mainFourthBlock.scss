@@ -1,0 +1,79 @@
+.inner-mainFourthBlock{
+    display: flex;
+    flex-direction: column;
+}
+
+.fourthBlockMainSpan{
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #1E266D;
+    margin-top: 232px;
+    margin-bottom: 56px;
+}
+
+.cardItem{
+    border: 1px solid rgba(69, 88, 128, 0.2);
+    border-radius: 4px;
+    width: 372px;
+    height: 467px;
+}
+
+.inner-cardItem{
+    margin: 35px 43px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    img{
+        margin-top: 70px;
+        margin-bottom: 23px;
+        width: 64px;
+        height: 64px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    a{
+        margin: 0 auto;
+    }
+}
+
+.cardFirstSpan{
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    color: #455880;
+}
+
+.cardSecondSpan{
+    font-family: 'Halyard Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 125%;
+    text-align: center;
+    color: #1E266D;
+}
+
+.cardThirdSpan{
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: center;
+    color: #455880;
+}
+
+.fourthBlockCardSection{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 150px;
+}

@@ -1,0 +1,84 @@
+
+.inner-mainSecondBlock{
+    width: 100%;
+}
+.secondBlockMainSpan{
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #1E266D;
+    margin: 0 auto;
+    display: block;
+    margin-top: 170px;
+}
+
+.secondBlock-InfoSection{
+    display: flex;
+    justify-content: flex-end;
+    height: 740px;
+    margin-top: 116px;
+    position: relative;
+    width: 100%;
+}
+.secondBlock-innerInfoSection{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.innerInfoSectionItem{
+    width: 400px;
+    height: 190px;
+    display: flex;
+    flex-direction: row;
+    div{
+        display: flex;
+        flex-direction: column;
+        margin-left: 47px;
+        width: 270px;
+        margin-top: 0;
+    }
+}
+
+.innerInfoSectionItem:not(:last-child){
+    border-bottom: 1px solid rgba(69, 88, 128, 0.2);
+}
+
+.innerInfoSectionItem:not(:first-child){
+    margin-top: 45px;
+}
+
+.infoSectionMainSpan{
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 125%;
+    color: #1E266D;
+    margin-bottom: 15px;
+}
+
+.infoSectionInnerSpan{
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #455880;
+}
+
+.bgSecondBlock{
+    position: absolute;
+    left: 0;
+    top: -250px;
+}
+
+.bgSecondBlock_2{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: -200px;
+}
